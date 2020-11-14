@@ -7,7 +7,7 @@ const DNI = 99999999;
 const letters = [
   "T",
   "R",
-  "W",x
+  "W",
   "A",
   "G",
   "M",
