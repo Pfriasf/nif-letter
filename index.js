@@ -4,10 +4,10 @@
 
 const DNI = 99999999;
 
-const letra = [
+const letters = [
   "T",
   "R",
-  "W",
+  "W",x
   "A",
   "G",
   "M",
@@ -31,7 +31,7 @@ const letra = [
 ];
 
 function dniLetter(dniNumber) {
-  return dniNumber + letra[dniNumber % 23];
+  return dniNumber + letters[dniNumber % 23];
 }
 
 dniLetter(DNI);
